@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!--========== CSS SLICK ==========-->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+        
+        <title>Responsive website sneakers</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <a href="#" class="nav__logo">Ventela®</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Quality</a></li>
+                        <li class="nav__item"><a href="#products" class="nav__link">Product</a></li>
+                        <li class="nav__item"><a href="#size" class="nav__link">Size Chart</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>              
+       
+                <div class="nav__shop">
+                    <a href="#" class="nav__icon">
+                        <i class='bx bx-shopping-bag'></i>
+                        <span>2</span>
+                    </a>
+                    
+                    <div class="nav__shop-content">
+                        
+                        <div class="title_shop">
+                            <span>Keranjang Belanja</span>
+                        </div>
+                    
+                        <div class="item">                       
+                            <div class="image_cart">
+                                <div class="image_c">
+                                    <img src="assets/img/sneakers1.png" alt="">
+                                </div>
+                            </div>                     
+                            <div class="description">
+                                <span>Hard13 Noir</span>
+                                <span>1 Pcs</span>
+                            </div>                            
+                            <div class="total-price">Rp. 400.000</div>
+                            <a href="#" class="delete-item">
+                                <i class='bx bx-x'></i>
+                            </a>
+                        </div>
+        
+                        <div class="item">                       
+                            <div class="image_cart">
+                                <div class="image_c">
+                                    <img src="assets/img/sneakers2.png" alt="">
+                                </div>
+                            </div>                       
+                            <div class="description">
+                                <span>Sang Sakerta</span>
+                                <span>1 Pcs</span>
+                            </div>                        
+                            <div class="total-price">Rp. 430.000</div>
+                            <a href="#" class="delete-item">
+                                <i class='bx bx-x'></i>
+                            </a>
+                        </div>
+                        <div class="total-all">
+                            <span>Total</span>
+                            <span>Rp. 830.000</span>
+                        </div>
+                        <div class="btn-viewcard">
+                            <a href="#" class="button-top">View Card</a>
+                        </div>
+                        <div class="btn-checkout">
+                            <a href="#" class="button-top2">Check Out</a>
+                        </div>                        
+                    </div>
+                </div>                 
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== PAGINATION ==========-->            
+            <section class="section bd-container" id="breadcrumb">
+                <div class="bd-grid breadcrumb">
+                    <div class="breadcrumb">
+                        <li><a href="#"> <i class='bx bxs-home'></i>  Home</a></li>
+                        <li>Detail</li>
+                    </div>
+                    <div class="breadcrumb-pagination">
+                    </div>
+                </div>
+            </section>    
+       
+            <!--========== DETAIL ==========-->
+            <section class="detail bd-container" id="detail">
+                <div class="detail__container  bd-grid">
+                    <div class="detail__img">
+                        <div class="product-pic-zoom">
+                            <img class="product-big-img" src="assets/img/detail_1.jpg" alt="" />
+                        </div>
+                        <div class="product-thumbs ">
+                            <div class="product-thumbs-track ps-slider bd-grid multiple-items">
+                                <div class="pt active" data-imgbigurl="assets/img/detail_1.jpg">
+                                    <img src="assets/img/detail_1.jpg" alt="" />
+                                </div>
+                                <div class="pt" data-imgbigurl="assets/img/detail_2.jpg">
+                                    <img src="assets/img/detail_2.jpg" alt="" />
+                                </div>
+                                <div class="pt" data-imgbigurl="assets/img/detail_3.jpg">
+                                    <img src="assets/img/detail_3.jpg" alt="" />
+                                </div>
+                                <div class="pt" data-imgbigurl="assets/img/detail_4.jpg">
+                                    <img src="assets/img/detail_4.jpg" alt="" />
+                                </div>
+                                <div class="pt" data-imgbigurl="assets/img/detail_5.jpg">
+                                    <img src="assets/img/detail_5.jpg" alt="" />
+                                </div>
+                                <div class="pt" data-imgbigurl="assets/img/detail_6.jpg">
+                                    <img src="assets/img/detail_6.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail__data">
+                        <span class="section-subtitle detail__initial">Ventela</span>
+                        <h2 class="section-title detail__initial">Sang Sekerta</h2>
+                        <p class="detail__description"> <b>GENERAL SPECIFICATION</b><br>                       ​
+                            Color : Lohita
+
+                            <div class="size_detail-container">
+                                <b>SIZE</b>
+                                <div class="sizes_detail" >
+                                    <span class="size_detail">36</span>
+                                    <span class="size_detail">37</span>
+                                    <span class="size_detail">38</span>
+                                    <span class="size_detail">39</span>
+                                    <span class="size_detail">40</span>
+                                    <span class="size_detail">41</span>
+                                    <span class="size_detail">42</span>
+                                    <span class="size_detail">43</span>
+                                    <span class="size_detail">44</span>
+                                </div>
+                            </div>   
+                            <b>MATERIALS</b><br>                          
+                            Upper       : 12 oz canvas <br>
+                            Toe Cap     : Suede <br>
+                            Thread      : Nylon <br>                             
+                            Eyelets     : Alumunium Silver + Ring <br>                            
+                            Insole      : Ultralite Foam <br>                            
+                            Foxing      : Rubber <br>                            
+                            Outsole     : Rubber <br>                            
+                            Stripe      : Suede</p><br>
+                            
+                            <div class="price_detail">
+                                <b>Rp. 430.000</b>
+                            </div>
+                            <br>    
+                        <a href="shopping-cart.html" class="button">Add to Cart</a>
+                    </div> 
+                </div>
+            </section>
+
+            <!--========== PRODUCTS ==========-->
+            <section class="products section bd-container" id="products">
+                <h2 class="section-title">Related Products</h2>
+
+                <div class="products__container bd-grid logo-slider slick_two">
+                    
+                    <div class="products__content">
+                        <img src="assets/img/sneakers1.png" alt="" class="products__img">
+                        <h3 class="products__name">Hard13 Noir</h3>
+                        <span class="products__detail">Low</span><br>
+                        <span class="products__preci">Rp. 400.000,-</span>
+                        <a href="#" class="button products__button_detail">Detail Product</i></a>
+                        <a href="#" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/sneakers2.png" alt="" class="products__img" >
+                        <h3 class="products__name">Sang Sekerta</h3>
+                        <span class="products__detail">Low</span><br>
+                        <span class="products__preci">Rp. 430.000,-</span>
+                        <a href="#" class="button products__button_detail">Detail Product</i></a>
+                        <a href="#" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/sneakers3.png" alt="" class="products__img">
+                        <h3 class="products__name">P'76 Series</h3>
+                        <span class="products__detail">Low</span><br>
+                        <span class="products__preci">Rp. 350.000,-</span>
+                        <a href="#" class="button products__button_detail">Detail Product</i></a>
+                        <a href="#" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/sneakers4.png" alt="" class="products__img">
+                        <h3 class="products__name">Urban</h3>
+                        <span class="products__detail">Slip On</span><br>
+                        <span class="products__preci">Rp. 300.000,-</span>
+                        <a href="#" class="button products__button_detail">Detail Product</i></a>
+                        <a href="#" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Ventela®</a>
+                    <span class="footer__description">Store</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Shipping And Returns</a></li>
+                        <li><a href="#" class="footer__link">Measurement Guide</a></li>
+                        <li><a href="#" class="footer__link">Size Conversion Chart</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Jl. Wahyu Keren Banget</li>
+                        <li>Denoasar 40971 - Indonesia</li>
+                        <li>Phone : +62-XXXXXXXX</li>
+                        <li>WhatsApp : 08XXXXXXXX</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2024 Wahyu Surya. All right reserved</p>
+        </footer>
+    </body>
+</html>
+
